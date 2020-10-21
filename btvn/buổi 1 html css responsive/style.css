@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin :0;
+    box-sizing: border-box;   
+  }
+/* Seletor */
+/* div .red { 
+    color: red ;
+}
+span .red {
+    color: blue;
+}
+
+Animation
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+    cursor: pointer;
+}
+.button {
+    width : 200px;
+    height: 50px;
+    background-color: lightblue;
+    color: wheat ;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    border-radius: 15px;
+    transition: all 0.8s linear;
+}
+.button:hover {
+    width : 300px;
+    color : green;
+    background-color: hotpink;
+    transform: translateX(50px) ;
+
+} */
+/* .container {
+    position: relative;
+}
+.child {
+    width : 50px;
+    height: 50px;
+    text-align: center;
+    background: rgb(3,38,49);
+    color : white;
+    
+}
+#child-2 {
+    position: absolute;
+    left: 0;
+    top :0
+} */
+
+/* body {
+    width: 100vw;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    width : 300px;
+    height : 700px;
+}
+.content {
+    width : 300px ;
+    height: 350px;
+    background-color: blue;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 100px;
+
+}
+.tree {
+    width : 300px;
+    height: 500px;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+}
+.container:hover img {
+    transform: translateX(-50px) ;
+}
+.container:hover {
+    transform: translateX(-200px) ;
+}
+.container:hover .content{
+   width : 700px;
+   transform: translateX(-70px) ;
+   background-color: pink;
+}
+.title, .description {
+    width : 300px;
+}  */
+/* div {
+    width : 100%;
+    background-color: lightcoral;
+    height: 10vh;
+}
+@media screen and (max-width: 768px) {
+    div {
+        width : 200px;
+
+    }
+} */
+/* .container {
+    width: 100vw ;
+    height: 100vh;
+    display: flex;
+    flex-wrap :wrap;
+}
+.child {
+    background-color: blue ;
+    height: 10vh;
+    width : 25%;
+    border :5px solid yellow; 
+}
+@media screen and (max-width: 768px) {
+    .child {
+        width : 40%;
+    }
+
+} */
+#new-page {
+    width : 100vw;
+    height: 99vh;
+    display: flex;
+    margin-top: 1vh;
+    font-weight: 550;
+}
+.left-side {
+    width : 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.menu-icon {
+    display: flex;
+    width :50%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+i {
+    font-size: 25px;
+}
+.main {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.big-news {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.big-news .title {
+    width: 95%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.big-news img {
+    height: 80%;
+    width: 95%;
+    border-radius: 10px;
+}
+.sub-news {
+    width :100%;
+    height: 30%;
+    display: flex;
+}
+.sub-news-wrapper {
+    width :33%;
+    display: flex;
+    flex-direction: column;
+}
+.sub-news img  {
+    width : 90%;
+    height :80%;
+    border-radius: 10px;
+}
+.sub-news .title-sub-news  {
+    width : 90%;
+}
+.right-side {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.right-news {
+    display: flex;
+    width :100%;
+    height: 10vh;
+    margin-bottom: 10px;
+}
+.right-news img {
+    width :20%;
+    height : 100%;
+    border-radius: 5px;
+}
+.right-news .right-news-title {
+    margin-left: 10px;
+}
+@media screen and (max-width : 768px) {
+    #new-page {
+        flex-direction: column;
+        padding : 3%;
+    }
+    .left-side {
+        display: none;
+    }
+    .main {
+        width: 100%; 
+    }
+    .sub-news {
+        flex-direction: column;
+        margin-top : 20px;
+        height: auto;
+    }
+    .sub-news-wrapper {
+        width: 100%;
+        flex-direction: row;
+    }
+    .sub-news img  {
+        width :40%;
+    }
+    .sub-news .title-sub-news  {
+        width : 50%;
+        padding :10px;
+    }
+    .right-side {
+        width :100%;
+    }
+
+}
