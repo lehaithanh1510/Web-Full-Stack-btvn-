@@ -1,0 +1,54 @@
+* {
+    margin: 0 ;
+    padding : 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contentQuestion {
+    width : 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.voteWrapper {
+    width : 50%;
+    height : 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+.voteWrapper button {
+    height: 70%;
+    padding : 5px 40px ;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+#answerNo {
+    background-color: red !important ;
+    color: white !important ;
+}
+#answerYes {
+    background-color: #4387c4 !important ;
+    color: white !important ;
+}
+.otherQuestion-and-voteResult {
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.otherQuestion-and-voteResult button {
+    width :20%;
+    height: 50%;
+    margin: 0px 5px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

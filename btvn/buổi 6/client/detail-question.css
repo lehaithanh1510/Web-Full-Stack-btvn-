@@ -1,0 +1,51 @@
+* {
+    margin : 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contentQuestion {
+    width : 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.totalVote {
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+#votePercent {
+    width : 60%;
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+}
+#votePercent div { 
+    width :50%;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+.yesAnswer {
+    background-color: #2d76b6 ;
+    color: white;
+}
+.noAnswer {
+    background-color: red ;
+    color: white;
+}
+button {
+    padding : 10px; 
+    background-color: #5bd35b ;
+    color: white;
+    font-size:15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

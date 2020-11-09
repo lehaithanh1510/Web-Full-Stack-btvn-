@@ -1,0 +1,1 @@
+console.log("duong dan" + __dirname)
